@@ -1,54 +1,112 @@
 [[Liburing]]
 arch = "aarch64"
-git-tree-sha1 = "748ffb4965afd9bce67e216ddcc35d990a9036b5"
+git-tree-sha1 = "2ef4ef33a889f5d4d70c33a0bc940597ed385405"
 libc = "glibc"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "11891bc76d0ea8d03e27e7f771ed229f91f2397922b6b950ac10e0cbf2bd5cee"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "08f016a1e2e29725580222d5c2d77c9883ad2e30d3231a9bb4282c7a9384a335"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.aarch64-linux-gnu.tar.gz"
 [[Liburing]]
 arch = "aarch64"
-git-tree-sha1 = "f01d8c5ae98127bf3ca892455e1015e57ce4daae"
+git-tree-sha1 = "87337d148ec45dc0c4aef7541e6fc6ba908da5de"
 libc = "musl"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "29f88cc725a45a6061837c002ab16883d16ca247e775fb2d7232eb4e8fbbbd76"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.aarch64-linux-musl.tar.gz"
+    sha256 = "beb92d9a217a71bced83b15b95140e54503f31e53d056f580746b784f9c7c9a9"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.aarch64-linux-musl.tar.gz"
 [[Liburing]]
-arch = "i686"
-git-tree-sha1 = "fc5f4faddcc0dcd32509095cab292cdbba3cc17c"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e6a4e768c963ae0d64d3e81538d3ab4259e937a9"
 libc = "glibc"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "40aed956a307ba2e6abe68ca39f80f875a9e92eb6b39c95b54454f5bef007e7c"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.i686-linux-gnu.tar.gz"
+    sha256 = "ecd0cfa6f6516a45d3bd194bd2d35e1527775ca6d1ae389cb1a9f48463181273"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.armv6l-linux-gnueabihf.tar.gz"
 [[Liburing]]
-arch = "i686"
-git-tree-sha1 = "ba5d3735e635984cdf6749892b1f727f8b1a71fd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "266e686c1bc5207b782dcbd03ca2c5e90b0ed3ad"
 libc = "musl"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "57d6150a00a45a0df827b213727d17a9159d28abad9a7560996505e2af4d1601"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.i686-linux-musl.tar.gz"
+    sha256 = "eb827c06979305f5d35051596ebde3164cb74a135d2f1b268363ac4c50814d60"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.armv6l-linux-musleabihf.tar.gz"
 [[Liburing]]
-arch = "x86_64"
-git-tree-sha1 = "a039a39e5f38b5dd6f451098017b7e35b57c253d"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d6eb10a3ddb096ba9da1eddc780906701137d03"
 libc = "glibc"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "a15673a3335f54697556f18abffd4cb6a3fe05f12ee0ef818842cdbf77bf594d"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "7b94d295cbff551aea265917636a752a8fd81fa1d15d3bcbaf06c379145aaca9"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.armv7l-linux-gnueabihf.tar.gz"
 [[Liburing]]
-arch = "x86_64"
-git-tree-sha1 = "c9b703acfda4518aa9f180114399383421e59538"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a3a9c733afaf48b23d568cd68ec41b93ab4eb46c"
 libc = "musl"
 os = "linux"
 
     [[Liburing.download]]
-    sha256 = "bee242ab674ea4e295144335e2e71ffabf6a80c1f3d69e5107cae03ca00c033b"
-    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.4.0+0/Liburing.v2.4.0.x86_64-linux-musl.tar.gz"
+    sha256 = "0d209eb606eb07d937aaac337a19235613ac3f9fde5d49578d85b663eed8cd6e"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.armv7l-linux-musleabihf.tar.gz"
+[[Liburing]]
+arch = "i686"
+git-tree-sha1 = "ea53da55df24afbfd81dc6d2968b0094ff060b50"
+libc = "glibc"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "ee01bb89d5cdfef9b002c1954c2638b2d17d8eacc2141cc3156608774626ceb8"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.i686-linux-gnu.tar.gz"
+[[Liburing]]
+arch = "i686"
+git-tree-sha1 = "fe54527ebcfcd1caa034d8f9b2303e80c4025c1c"
+libc = "musl"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "edde4ac46799687d96971164fb53ef0d478395b8f2b835313523da3a38f921d0"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.i686-linux-musl.tar.gz"
+[[Liburing]]
+arch = "powerpc64le"
+git-tree-sha1 = "556faabea7cf613484e919651478f40635ab8117"
+libc = "glibc"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "f0e8feca7ac7c696e9c8828eee62200cdb37ddaaadaf7005f4481696b37fd152"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.powerpc64le-linux-gnu.tar.gz"
+[[Liburing]]
+arch = "riscv64"
+git-tree-sha1 = "3d6b5fcbad6f72b1c350844a7fa764a4ada971e7"
+libc = "glibc"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "cc8a8d48d9d46dcf7953a62a21a7c696be5a39924fcb1ab16c040d0158743603"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.riscv64-linux-gnu.tar.gz"
+[[Liburing]]
+arch = "x86_64"
+git-tree-sha1 = "82e906e348db065d05b803102a51f2463cc0e85d"
+libc = "glibc"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "14cd8c12506186c822e475f81a7c1c73aa439b1fbdfcfd265724c6d705812adb"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.x86_64-linux-gnu.tar.gz"
+[[Liburing]]
+arch = "x86_64"
+git-tree-sha1 = "74d293244e32208c1c60df5238d004f5e4894e59"
+libc = "musl"
+os = "linux"
+
+    [[Liburing.download]]
+    sha256 = "abed4e9ef2db28bc376429ec866ccbded93fd9b391cf29915865456c5ce8450a"
+    url = "https://github.com/JuliaBinaryWrappers/Liburing_jll.jl/releases/download/Liburing-v2.8.0+0/Liburing.v2.8.0.x86_64-linux-musl.tar.gz"
