@@ -1,6 +1,6 @@
 name = "Liburing_jll"
 uuid = "6524598b-69a8-53ae-b017-622bece5ca95"
-version = "2.8.0+0"
+version = "2.12.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
